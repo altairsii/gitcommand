@@ -29,3 +29,4 @@ git ls-remote (remote) 来显式地获得远程引用的完整列表
 git remote show (remote) 获得远程分支的更多信息  
 git fetch origin 查找 “origin” 是哪一个服务器，从中抓取本地没有的数据，并且更新本地数据库，移动 origin/master 指针指向新的、更新后的位置。  
 git push (remote) (branch) 推送  
+git checkout --  filename 撤销filename文件的修改
